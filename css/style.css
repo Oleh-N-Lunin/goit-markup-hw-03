@@ -16,6 +16,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 /* Остальной код */
@@ -146,6 +148,8 @@ body {
   margin-right: auto;
 }
 
+/* About Us Section */
+
 .about-us-title,
 .our-works-text {
   font-weight: bold;
@@ -164,6 +168,14 @@ body {
   color: var(--text-main-color);
 }
 
+.about-us-img {
+  margin-bottom: 30px;
+}
+
+.about-us-title {
+  margin-bottom: 10px;
+}
+
 .secondary-title {
   font-weight: bold;
   font-size: 36px;
@@ -171,6 +183,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color-main);
+  margin-bottom: 50px;
 }
 
 .our-works-text {

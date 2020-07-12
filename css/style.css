@@ -7,6 +7,19 @@
   --text-secondary-color: #ffffff;
   --accent-color: #2196f3;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Остальной код */
+
 body {
   font-family: var(--main-font);
   font-size: 14px;
@@ -23,10 +36,35 @@ body {
 /* Header */
 
 .header {
-  outline: 1px;
+  outline: solid 1px coral;
 }
 /*Navigation*/
 .navigation-main-nav {
+  display: flex;
+}
+
+.navigation-menu {
+  display: flex;
+}
+
+.navigation-menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-adress-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header-adress-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.logo {
+  margin-right: 85px;
+}
+
+.nav-adress {
   display: flex;
 }
 
@@ -88,8 +126,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
+  outline: solid 1px coral;
   color: var(--title-color-secondary);
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .hero-section-button {

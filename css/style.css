@@ -46,6 +46,11 @@ body {
 }
 /* Header */
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .header .container {
   display: flex;
   align-items: center;
@@ -103,9 +108,9 @@ body {
   color: var(--accent-color);
 }
 
-.adress-mail {
+/* .adress-mail {
   margin-right: 50px;
-}
+} */
 
 .navigation-menu-link,
 .adress-mail,

@@ -35,6 +35,13 @@ body {
 .list {
   list-style: none;
 }
+
+/* CONTAINER */
+.conatainer {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* Header */
 
 .header {

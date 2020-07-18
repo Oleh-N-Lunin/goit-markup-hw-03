@@ -185,10 +185,10 @@ body {
 }
 
 /* About Us Section */
-
+/* 
 .about-us-section {
   background-color: #ffffff;
-}
+} */
 
 .about-us-menu {
   display: flex;
@@ -244,11 +244,32 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-color-main);
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 
 .our-works-text {
   text-align: center;
   color: var(--text-secondary-color);
+}
+
+/* OUR TEAM */
+
+/* .our-team-section {
+  background-color: #f5f4fa;
+} */
+
+.our-team-list {
+  display: flex;
+  /* background-color: #ffffff; */
+}
+
+.our-team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-team-social-list {
+  display: flex;
+  justify-content: space-around;
 }
 
 .our-team-title,
@@ -264,6 +285,13 @@ body {
 .our-team-text {
   font-weight: normal;
   color: var(--text-main-color);
+}
+
+/* OUR CLIENTS SECTION */
+
+.our-client-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .adress-map {

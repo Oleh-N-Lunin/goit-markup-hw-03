@@ -46,11 +46,18 @@ body {
 }
 /* Header */
 
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header {
   background-color: var(--title-color-secondary);
 }
 /*Navigation*/
-.navigation-main-nav {
+.navigation-main-nav,
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -64,6 +71,7 @@ body {
 }
 
 .header-adress-list {
+  display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -93,6 +101,10 @@ body {
 .logo-web,
 .footer-logo-web {
   color: var(--accent-color);
+}
+
+.adress-mail {
+  margin-right: 50px;
 }
 
 .navigation-menu-link,
@@ -252,7 +264,7 @@ body {
   display: flex;
 }
 
-/*Portfolio*/
+/*PORTFOLIO*/
 .btn-filter {
   font-weight: 500;
   font-size: 16px;
@@ -271,7 +283,7 @@ body {
 /*works list*/
 
 .our-projects {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;

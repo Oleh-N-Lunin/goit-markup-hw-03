@@ -272,6 +272,17 @@ body {
   justify-content: space-around;
 }
 
+.our-team-title {
+  margin-top: 30px;
+}
+.our-team-text {
+  margin-top: 10px;
+}
+
+.our-team-social-list {
+  margin-top: 16px;
+}
+
 .our-team-title,
 .our-team-text {
   font-weight: 500;
@@ -292,6 +303,14 @@ body {
 .our-client-list {
   display: flex;
   justify-content: space-between;
+}
+
+.our-client-list {
+  margin-top: 50px;
+}
+
+.our-client-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .adress-map {

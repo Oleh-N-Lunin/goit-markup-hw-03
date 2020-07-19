@@ -313,6 +313,8 @@ body {
   margin-right: 30px;
 }
 
+/* FOOTER */
+
 .adress-map {
   font-style: normal;
   font-weight: normal;
@@ -350,6 +352,14 @@ body {
 }
 
 /*PORTFOLIO*/
+
+/* Buttons */
+
+.btn-filter-list {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-filter {
   font-weight: 500;
   font-size: 16px;
